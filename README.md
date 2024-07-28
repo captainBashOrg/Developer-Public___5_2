@@ -13,8 +13,8 @@ class House:
             for i in range (1, new_floor+1):
                 print(f"Опять сломали лифт в {self.name}, ножками, этаж!  {i} из {new_floor}")
     def __len__(self):
-        print (type (self.number_of_floors))
-        input()
+        #print (type (self.number_of_floors))
+        #input()
         return   self.number_of_floors
 
     def __str__(self):
